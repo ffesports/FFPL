@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html><head>
 	<meta charset="utf-8">
-    <meta property="og:title" content="FFTPL小組賽積分榜">
+    <meta property="og:title" content="FFPL總決賽積分榜">
 <!--	-->
     
     <meta property="og:image" content="PNG/mini.png">
     <meta property="og:type" content="website">
  <link rel="icon" href="PNG/mark.ico" type="image/x-icon">
-    <title>OBS小組賽積分榜</title> 
+    <title>OBS總決賽積分榜</title> 
     
     <link rel="stylesheet" href="./font.css"><style>
     @import url("webfonts/GenSenRoundedTW_B_01/stylesheet.css");
@@ -119,43 +119,120 @@ video {
 }
 	
 /* 調整顏色 */
-
+#table td:nth-child(1),
 #table td:nth-child(6),
-#table td:nth-child(10) {
+#table td:nth-child(11) {
+	color: #FF0000;
+}
+#table td:nth-child(5),
+#table td:nth-child(10),
+#table td:nth-child(15) {
 	color: #FFE500;
 }
+	
+/* 調整圖片列的間距 */
+#table td:nth-child(2),
+#table td:nth-child(7),
+#table td:nth-child(12) {
+	padding-top: 0px; /* 上面間距 */
+	padding-bottom: 0px; /* 下面間距 */
+	padding-left: 0px; /* 左邊間距 */
+    padding-right: 0px; /* 右邊間距 */
+	height: 30px; /* 調整高度值 */
+    position: relative; /* 啟用定位 */
+    top: 15px; /* 向上偏移指定像素 */
+   
+}
+
+/* 調整文字列的間距 */
+#table td:nth-child(1),
+#table td:nth-child(3),
+#table td:nth-child(4),
+#table td:nth-child(5),
+#table td:nth-child(6),
+#table td:nth-child(8),
+#table td:nth-child(9),
+#table td:nth-child(10),
+#table td:nth-child(11),
+#table td:nth-child(13),
+#table td:nth-child(14),
+#table td:nth-child(15) {
+    padding-left: 20px; /* 左邊間距 */
+    padding-right: 20px; /* 右邊間距 */
+    padding-top: 15px; /* 上面間距 */
+    padding-bottom: 15px; /* 下面間距 */	
+}
+
 
 	
 
-
-
-
-
-#table td:nth-child(2) {
-    padding-left: 0px; /* 左邊間距 */
-    padding-right: 200px; /* 右邊間距 */
-    padding-top: 0px; /* 上面間距 */
-    padding-bottom: 15px; /* 下面間距 */
-	font-size: 100px;
-	text-align: right;
-	position: relative; /* 啟用定位 */
-    top: -30px; /* 向上偏移指定像素 */
-}	
-
-#table td:nth-child(3) {
-    padding-left: 0px; /* 左邊間距 */
+#table td:nth-child(4) {
+    padding-left: 135px; /* 左邊間距 */
     padding-right: 42px; /* 右邊間距 */
     padding-top: 0px; /* 上面間距 */
     padding-bottom: 0px; /* 下面間距 */
-	 position: relative; /* 啟用定位 */
-    top: -50px; /* 向上偏移指定像素 */
+}	
+#table td:nth-child(5) {
+    padding-left: 35px; /* 左邊間距 */
+}
+
+#table td:nth-child(6) {
+    padding-left: 100px; /* 左邊間距 */
+    padding-right: 0px; /* 右邊間距 */
+    padding-top: 0px; /* 上面間距 */
+    padding-bottom: 0px; /* 下面間距 */
+}
+#table td:nth-child(7) {
+    padding-left: 20px; /* 左邊間距 */
+    padding-right: 0px; /* 右邊間距 */
+    padding-top: 0px; /* 上面間距 */
+    padding-bottom: 0px; /* 下面間距 */
+}
 	
+	
+	
+#table td:nth-child(9) {
+    padding-left: 65px; /* 左邊間距 */
+    padding-right: 0px; /* 右邊間距 */
+    padding-top: 0px; /* 上面間距 */
+    padding-bottom: 0px; /* 下面間距 */
+}	
+#table td:nth-child(10) {
+    padding-left: 75px; /* 左邊間距 */
+    padding-right: 0px; /* 右邊間距 */
+    padding-top: 0px; /* 上面間距 */
+    padding-bottom: 0px; /* 下面間距 */
+}	
+#table td:nth-child(11) {
+    padding-left: 107px; /* 左邊間距 */
+    padding-right: 0px; /* 右邊間距 */
+    padding-top: 0px; /* 上面間距 */
+    padding-bottom: 0px; /* 下面間距 */
+}
+#table td:nth-child(12) {
+    padding-left: 20px; /* 左邊間距 */
+    padding-right: 0px; /* 右邊間距 */
+    padding-top: 0px; /* 上面間距 */
+    padding-bottom: 0px; /* 下面間距 */
+}	
+#table td:nth-child(14) {
+    padding-left: 80px; /* 左邊間距 */
+    padding-right: 0px; /* 右邊間距 */
+    padding-top: 0px; /* 上面間距 */
+    padding-bottom: 0px; /* 下面間距 */
+}	
+#table td:nth-child(15) {
+    padding-left: 50px; /* 左邊間距 */
+    padding-right: 0px; /* 右邊間距 */
+    padding-top: 0px; /* 上面間距 */
+    padding-bottom: 0px; /* 下面間距 */
 }	
 	
-
+	
 	
 /* 表格內置中 */	
-
+#table td:nth-child(1),
+#table td:nth-child(2),
 #table td:nth-child(4),
 #table td:nth-child(5),
 #table td:nth-child(6),
@@ -172,9 +249,10 @@ video {
 	
 
 	
-	
-	
-	
+	#table img {
+    max-width: 60px; /* 調整圖片最大寬度 */
+    max-height: 60px; /* 調整圖片最大高度 */
+}
 	
 	 body {
     background-image: url("PNG/04.png");
@@ -189,7 +267,7 @@ video {
  
 
 	
-	<div class="Excel" style="padding-top: 420px;padding-left: 100px;">
+	<div class="Excel" style="padding-top: 438px;padding-left: 370px;">
   <table id="table">
         <thead>
             <tr>
@@ -209,8 +287,8 @@ video {
 	
 	 <script>
     const apiKey = 'AIzaSyCl9W91nSkiokY-GXPTuZdi44qb_B39D24';
-    const spreadsheetId = '1pNvPpGjk-M10ZP1Loq3bw2grDj6eXEwir1pnjqtTZGY';
-    const sheetName = 'to sort4';
+    const spreadsheetId = '1-Kbvt6ho8rWIhqFcV_gQ38KX0PrBZPM-SNv-Cyyauec';
+    const sheetName = 'to sort5';
     const dataTable = document.getElementById('table');
 
     function fetchData() {
@@ -228,29 +306,15 @@ video {
                     row.forEach((cellData, index) => {
                         const cellElement = document.createElement('td');
                         
-                        if (index === 0) { // 假設第 1 列是第一個圖片網址的列
+                        if (index === 1) { // 假設第 2 列是第一個圖片網址的列
                             const imgElement = document.createElement('img');
                             imgElement.src = cellData;
-							imgElement.style.width = '150px'; // 設置圖片寬度，可以根據需要調整
-                            imgElement.style.height = 'auto'; // 設置圖片高度，這樣可以保持比例
-							imgElement.style.marginRight = '0px'; // 向左移動圖片，可以根據需要調整
-							imgElement.style.marginLeft = '0px'; // 向右移動圖片，可以根據需要調整
-							imgElement.style.marginBottom = '0px'; // 向上移動圖片，可以根據需要調整
-							imgElement.style.marginTop = '0px'; // 向下移動圖片，可以根據需要調整
-                            cellElement.appendChild(imgElement);
-                        } else if (index === 2) { 
-                            const imgElement = document.createElement('img');
-                            imgElement.src = cellData;
-							imgElement.style.width = '40px'; // 設置圖片寬度，可以根據需要調整
-                            imgElement.style.height = 'auto'; // 設置圖片高度，這樣可以保持比例
                             cellElement.appendChild(imgElement);
                         } else if (index === 6) { 
                             const imgElement = document.createElement('img');
                             imgElement.src = cellData;
-							imgElement.style.width = '40px'; // 設置圖片寬度，可以根據需要調整
-                            imgElement.style.height = 'auto'; // 設置圖片高度，這樣可以保持比例
                             cellElement.appendChild(imgElement);
-                        }
+                        } 
 
                         else {
                             cellElement.textContent = cellData;
